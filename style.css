@@ -1,11 +1,16 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: white;
+}
+
 body > header{
-    background-color: #837979da;
+    background-color: #9e9a9ada;
     padding: 16px 0;
 }
 
@@ -22,15 +27,28 @@ header li{
 header li a{
     color: #454647;
     text-decoration: none;
+    padding: 8px;
+}
+
+header li a:hover{
+    background-color: aliceblue;
+    color: #1b1a1a;
+}
+
+main{
+    padding: 50px;
+    margin: auto;
 }
 
 .container{
-    width: 1366px;
+    width: 900px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 section{
-    padding: 16px 0;
+    padding: 18px 0;
+    margin: auto;
 }
 
 section h2,
@@ -48,21 +66,60 @@ section h2,
     height: 180px;
 }
 
+.artigos article{
+    width: 20%;
+}
+
 .artigos article h3{
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 .artigos article a{
-    background-color: blue;
-    color: #fff;
+    background-color: rgb(195, 195, 199);
+    color: #1b1a1a;
     padding: 8px;
+    margin: 8px;
     display: inline-block;
     text-decoration: none;
 }
 
 .artigos article a:hover{
     text-decoration: underline;
+    color: white;
+}
+
+#esportes {
+    background-color: #a38181;
+}
+
+#esportes .artigos article a{
+    background-color: rgb(144, 146, 139);;
+}
+
+#economy{
+    background-color: #caacac;
+}
+
+#economy .artigos article a{
+    background-color: rgb(144, 146, 139);
+}
+
+#tecnologia{
+    background-color: #c4b4b4;
+}
+
+#tecnologia .artigos article a{
+    background-color: rgb(144, 146, 139);
+}
+
+#musica{
+    background-color: #b69a9a;
+    padding: 20px;
+}
+
+#musica .artigos article a{
+    background-color: rgb(144, 146, 139);;
 }
 
 
